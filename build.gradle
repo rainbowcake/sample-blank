@@ -18,8 +18,9 @@ buildscript {
 allprojects {
     repositories {
         google()
+        maven { url "http://artifactory.autsoft.hu:8081/artifactory/simple/libs-release" }
+        mavenCentral()
         jcenter()
-        
     }
 }
 
