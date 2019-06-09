@@ -3,7 +3,7 @@ package com.example.blank.ui.blank
 import android.os.Bundle
 import android.view.View
 import co.zsmb.rainbowcake.base.RainbowCakeFragment
-import co.zsmb.rainbowcake.base.getViewModelFromFactory
+import co.zsmb.rainbowcake.dagger.getViewModelFromFactory
 import com.example.blank.R
 
 class BlankFragment : RainbowCakeFragment<BlankViewState, BlankViewModel>() {

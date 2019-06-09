@@ -1,8 +1,8 @@
 package com.example.blank
 
-import co.zsmb.rainbowcake.RainbowCakeApplication
 import co.zsmb.rainbowcake.config.Loggers
 import co.zsmb.rainbowcake.config.rainbowCake
+import co.zsmb.rainbowcake.dagger.RainbowCakeApplication
 import co.zsmb.rainbowcake.timber.TIMBER
 import com.example.blank.di.AppComponent
 import com.example.blank.di.ApplicationModule

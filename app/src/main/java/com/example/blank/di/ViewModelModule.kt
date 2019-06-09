@@ -1,7 +1,7 @@
 package com.example.blank.di
 
 import android.arch.lifecycle.ViewModel
-import co.zsmb.rainbowcake.di.ViewModelKey
+import co.zsmb.rainbowcake.dagger.ViewModelKey
 import com.example.blank.ui.blank.BlankViewModel
 import dagger.Binds
 import dagger.Module
