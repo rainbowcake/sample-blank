@@ -1,11 +1,11 @@
 package com.example.blank.ui.blank
 
-import co.zsmb.rainbowcake.base.JobViewModel
+import co.zsmb.rainbowcake.base.RainbowCakeViewModel
 import javax.inject.Inject
 
 class BlankViewModel @Inject constructor(
     private val blankPresenter: BlankPresenter
-) : JobViewModel<BlankViewState>(Loading) {
+) : RainbowCakeViewModel<BlankViewState>(Loading) {
 
     fun load() = execute {
         viewState = BlankReady(blankPresenter.getData())
